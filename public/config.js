@@ -1,9 +1,10 @@
 window.__RUNTIME_CONFIG__ = {
   "VITE_ORDERLY_BROKER_ID": "demo",
   "VITE_ORDERLY_BROKER_NAME": "Monarch Labs",
+  "VITE_BROKER_EOA_ADDRESS": "0x7d1f0f92e9bc5cd4694be4832f50e1ff2939edb3",
   "VITE_DISABLE_MAINNET": "false",
   "VITE_DISABLE_TESTNET": "false",
-  "VITE_ORDERLY_MAINNET_CHAINS": "42161,10,8453,5000,1,56,1329,43114,900900900,2818,146,80094,1514,34443,98866,2741",
+  "VITE_ORDERLY_MAINNET_CHAINS": "42161,10,8453,5000,1,56,1329,43114,900900900,2818,146,80094,1514,34443,98866,2741,143",
   "VITE_ORDERLY_TESTNET_CHAINS": "421614,97,10143,11124,901901901",
   "VITE_DEFAULT_CHAIN": "900900900",
   "VITE_PRIVY_APP_ID": "",
@@ -19,6 +20,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Markets,Leaderboard,Swap,Portfolio,Vaults,Rewards",
   "VITE_CUSTOM_MENUS": "Education Portal, https://education.monarchlabs.io/",
+  "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "false",
   "VITE_ENABLE_CAMPAIGNS": "false",
   "VITE_TELEGRAM_URL": "https://t.me/monarchlabs",
   "VITE_DISCORD_URL": "",
@@ -34,5 +36,9 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_AVAILABLE_LANGUAGES": "en,zh,ja,es,ko,vi,de,fr,ru,id,tr,it,pt,uk,pl,nl",
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
-  "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#0ECB81\",\"downColor\":\"#C52218\",\"pnlUpColor\":\"#0ECB81\",\"pnlDownColor\":\"#C52218\",\"chartBG\":\"#000000\"}"
+  "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#0ECB81\",\"downColor\":\"#C52218\",\"pnlUpColor\":\"#0ECB81\",\"pnlDownColor\":\"#C52218\",\"chartBG\":\"#000000\"}",
+  "VITE_ANALYTICS_SCRIPT": "",
+  "VITE_SYMBOL_LIST": "",
+  "VITE_RESTRICTED_REGIONS": "",
+  "VITE_WHITELISTED_IPS": ""
 };
